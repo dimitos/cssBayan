@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Inter";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("./fonts/Inter-Regular.woff2") format("woff2"),
+    url("./fonts/Inter-Regular.woff") format("woff");
+}
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+*,
+*:focus,
+*:hover,
+*:active {
+    outline: none;
+    text-decoration: none;
+}
+html {
+    height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+body {
+    margin: 0;
+}
+h1 {
+    font-weight: inherit;
+    font-size: inherit;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+input {
+    font-size: 100%;
+    font-family: inherit;
+    line-height: inherit;
+    color: inherit;
+    margin: 0;
+    border: none;
+    background: none;
+    border-radius: 0;
+    padding: 0;
+}
+img {
+    vertical-align: top;
+    max-width: 100%;
+    border-style: none;
+}
+[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
