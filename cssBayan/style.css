@@ -114,6 +114,10 @@ span {
     align-items: center;
     justify-content: space-between;
     padding: 1rem 1.5rem;
+    transition: .3s;
+}
+.item input:checked ~ .item__header {
+    opacity: 1 !important;
 }
 .item__text {
     flex: 1;
@@ -151,6 +155,7 @@ span {
 .item input:checked ~ .item__image {
     max-height: 100vh;
     padding: 1.5rem;
+    opacity: 1 !important;
 }
 .item input:checked ~ .item__header .item__icon.icon__arrow-up {
     display: block;
@@ -158,6 +163,10 @@ span {
 }
 .item input:checked ~ .item__header .item__icon.icon__arrow-down {
     display: none;
+}
+.item:active .item__header,
+.item:active .item__image {
+    opacity: .7;
 }
 
 /* ========== media ====================== */
