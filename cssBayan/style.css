@@ -127,8 +127,8 @@ span {
     transition: .6s;
 }
 .item__icon {
-    width: 14px;
-    height: 12px;
+    width: 0,875rem;
+    height: 0.75rem;
     stroke: #000000;
     transition: .6s;
 }
